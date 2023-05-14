@@ -1,0 +1,17 @@
+{
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 110",
+    "not firefox <= 112",
+    "not opera <= 98"
+  ],
+  "extends": ["development"],
+  "hints": {
+    "axe/text-alternatives": "off",
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/layout": "off",
+    "detect-css-reflows/paint": "off",
+    "manifest-is-valid": "off"
+  }
+}
